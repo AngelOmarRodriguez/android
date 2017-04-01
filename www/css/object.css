@@ -8,6 +8,15 @@
 	height: 100%;
 }
 
+.tmcontainer object, iframe
+{
+    position: absolute;
+    top:4%;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
 /*.ui-icon-twitter { 
     background: url("twitter8.png") no-repeat rgba(0, 0, 0, 0.4) !important; 
 }*/
