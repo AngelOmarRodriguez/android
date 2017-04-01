@@ -8,6 +8,9 @@
         Apache Cordova Team
     </author>
     <icon src="www/img/icon.png" />
+    <platform name="ios">
+    	<icon src="www/img/icon.png" width="60" height="60" />
+    </platform>
     <content src="index.html" />
     <allow-navigation href="http://*/*" />
 	<allow-navigation href="https://*/*" />
