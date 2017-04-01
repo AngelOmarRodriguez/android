@@ -1,6 +1,7 @@
 .container object, iframe
 {
     	overflow-y: auto;
+	overflow-x: auto;
     	margin-right: 0.1%;
 	top:4%;
 	left: 0;
