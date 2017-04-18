@@ -9,28 +9,28 @@
     </author>
     <platform name="ios" >
             <!--iOS 8.0 +--> <!--iPhone Plus 6-->
-            <icon src = "www/img/icon.png" width = "180" heights = "180"/>
+            <icon src = "www/img/180x180.png" width = "180" heights = "180"/>
             <!--iOS 7.0 +--> <!--iPhone / iPod Touch--> 
-            <icon src="www/img/icon.png" width = "60" height = "60"/>
-            <icon src = "www/img/icon.png" width = "120" height = "120"/>
+            <icon src="www/img/60x60.png" width = "60" height = "60"/>
+            <icon src = "www/img/120x120.png" width = "120" height = "120"/>
             <!--iPad-->  
-            <icon src="www/img/icon.png" width="76" height="76"/>
-            <icon src = "www/img/icon.png" width = "152" height = "152"/>
+            <icon src="www/img/76x76.png" width="76" height="76"/>
+            <icon src = "www/img/152x152.png" width = "152" height = "152"/>
             <!--iOS 6.1--> <!--icono Spotlight-->
-            <icon src="www/img/icon.png" width="40" height="40"/>
-            <icono src="www/img/icon.png" width="80" height="80"/>
+            <icon src="www/img/40x40.png" width="40" height="40"/>
+            <icono src="www/img/80x80.png" width="80" height="80"/>
             <!--iPhone / iPod Touch--> 
-            <icon src="www/img/icon.png" width="57" height="57"/>
-            <icon src="www/img/icon.png" width="114" height="114"/>
+            <icon src="www/img/57x57.png" width="57" height="57"/>
+            <icon src="www/img/114x114.png" width="114" height="114"/>
             <!--iPad--> 
-            <icon src="www/img/icon.png" width="72" height="72"/>
-            <icon src="www/img/icon.png" width = "144" height="144"/>
+            <icon src="www/img/72x72.png" width="72" height="72"/>
+            <icon src="www/img/144x144.png" width = "144" height="144"/>
             <!--iPhone Spotlight y el icono Configuración--> 
-            <icon src="www/img/icon.png" width="29" height="29"/>
-            <icono src="www/img/icon.png" width="58" height="58"/>
+            <icon src="www/img/29x29.png" width="29" height="29"/>
+            <icono src="www/img/58x58.png" width="58" height="58"/>
             <!--iPad Spotlight y el icono Configuración--> 
-            <icon src="www/img/icon.png" width="50" height="50"/>
-            <icon src="www/img/icon.png" width="100" height="100"/>
+            <icon src="www/img/50x50.png" width="50" height="50"/>
+            <icon src="www/img/100x100.png" width="100" height="100"/>
     </platform>
     <platform name="android">
               <icon src="www/img/icon.png"/>
