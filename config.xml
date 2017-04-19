@@ -2,12 +2,41 @@
 <widget id="com.kenworth.app" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>KWEste</name>
     <description>
-        A sample Apache Cordova application that responds to the deviceready event.
+        Esta aplicación te ayuda a hacer un seguimiento de nuestra concesionaria de forma menos complicada. Se trata de una app gratuita que permite entrar a la pagina , Twitter, informe de ubicaciones y un catalogo de unidades nuevas.
     </description>
     <author email="dev@cordova.apache.org" href="http://cordova.io">
         Apache Cordova Team
     </author>
-    <icon src="www/img/icon.png" />
+    <platform name="ios" >
+            <!--iOS 8.0 +--> <!--iPhone Plus 6-->
+            <icon src = "www/img/icon.png" width = "180" heights = "180"/>
+            <!--iOS 7.0 +--> <!--iPhone / iPod Touch--> 
+            <icon src="www/img/icon.png" width = "60" height = "60"/>
+            <icon src = "www/img/icon.png" width = "120" height = "120"/>
+            <!--iPad-->  
+            <icon src="www/img/icon.png" width="76" height="76"/>
+            <icon src = "www/img/icon.png" width = "152" height = "152"/>
+            <!--iOS 6.1--> <!--icono Spotlight-->
+            <icon src="www/img/icon.png" width="40" height="40"/>
+            <icono src="www/img/icon.png" width="80" height="80"/>
+            <!--iPhone / iPod Touch--> 
+            <icon src="www/img/icon.png" width="57" height="57"/>
+            <icon src="www/img/icon.png" width="114" height="114"/>
+            <!--iPad--> 
+            <icon src="www/img/icon.png" width="72" height="72"/>
+            <icon src="www/img/icon.png" width = "144" height="144"/>
+            <!--iPhone Spotlight y el icono Configuración--> 
+            <icon src="www/img/icon.png" width="29" height="29"/>
+            <icono src="www/img/icon.png" width="58" height="58"/>
+            <!--iPad Spotlight y el icono Configuración--> 
+            <icon src="www/img/icon.png" width="50" height="50"/>
+            <icon src="www/img/icon.png" width="100" height="100"/>
+    </platform>
+    <platform name="android">
+        <icon src="www/img/icon.png"/>
+    </platform>
     <content src="index.html" />
+    <allow-navigation href="http://*/*" />
+	<allow-navigation href="https://*/*" />
     <access origin="*" />
 </widget>
