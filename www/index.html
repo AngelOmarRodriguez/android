@@ -1,3 +1,21 @@
+Skip to content
+This repository
+Search
+Pull requests
+Issues
+Gist
+ @AngelOmarRodriguez
+ Sign out
+ Watch 0
+  Star 0
+  Fork 0 AngelOmarRodriguez/apps
+ Code  Issues 0  Pull requests 0  Projects 0  Wiki  Pulse  Graphs  Settings
+Tree: 6e6c15eed8 Find file Copy pathapps/www/index.html
+6e6c15e  18 days ago
+@AngelOmarRodriguez AngelOmarRodriguez Add files via upload
+1 contributor
+RawBlameHistory     
+205 lines (196 sloc)  12.4 KB
 <!DOCTYPE html>
 <!--
     Licensed to the Apache Software Foundation (ASF) under one
@@ -7,9 +25,7 @@
     to you under the Apache License, Version 2.0 (the
     "License"); you may not use this file except in compliance
     with the License.  You may obtain a copy of the License at
-
     http://www.apache.org/licenses/LICENSE-2.0
-
     Unless required by applicable law or agreed to in writing,
     software distributed under the License is distributed on an
     "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
@@ -39,26 +55,16 @@
     </head>
     <body>
         <div data-role="page" id="home" data-theme="b" >
-            <!--div data-role="header" data-position="fixed" >
-                <center>Kenworth del Este S.A de C.V<center>
-                <a href="#popup" data-rel="popup" class="ui-btn ui-corner-all ui-btn-icon-notext ui-icon-gear ui-btn-right" data-transition="pop"></a>
-                <div data-role="popup" id="popup">
-                    <p>Para más información comunicarse a ti@kenworthdeleste.com.mx.</p>
-                </div>
-            </div-->
-            <div data-role="content" class="tmcontainer" >
-                <!--iframe src = "http://www.kenworthdeleste.com.mx"-->
-                <!--embed src="http://www.kenworthdeleste.com.mx" /-->
-                <!--Bienvenido a nuetra aplicación-->
-                <!--object type="text/html"
-                    data="http://www.kenworthdeleste.com.mx/helios/" >
-                </object-->
+            <div data-role="header" data-position="fixed" >
                 <center>Kenworth del Este S.A de C.V</center>
                 <a href="#popup" data-rel="popup" class="ui-btn ui-corner-all ui-btn-icon-notext ui-icon-gear ui-btn-right" data-transition="pop"></a>
                 <div data-role="popup" id="popup">
                     <p>Para más información comunicarse a ti@kenworthdeleste.com.mx.</p>
                 </div>
+            </div>
+            <div data-role="content" class="container" >
                 <iframe
+                    scrolling='yes'
                     src='http://www.kenworthdeleste.com.mx/helios/'>
                 </iframe>
             </div>
@@ -77,19 +83,12 @@
         </div>
 
         <div data-role="page" id="twitter" data-theme="b">
-            <!--div data-role="header" data-position="fixed" >
+            <div data-role="header" data-position="fixed" >
                 <center>Kenworth del Este S.A de C.V</center>
                 <a href="#popup2" data-rel="popup" class="ui-btn ui-corner-all ui-btn-icon-notext ui-icon-gear ui-btn-right" data-transition="pop"></a>
                 <div data-role="popup" id="popup2">
                     <p>Para más información comunicarse a ti@kenworthdeleste.com.mx.</p>
                 </div>
-            </div-->
-            <div data-role="content" class="tmcontainer" >
-                <!--iframe src = "https://www.twitter.com/kenworthdeleste"/-->
-                <!--a class="twitter-timeline" href="https://twitter.com/KenworthdelEste"></a-->
-                 <iframe
-                      src='https://cdn.rawgit.com/Luis-Chavez/Embed-Tweet/adad4db8/.html?user=kenworthdeleste'>
-                  </iframe>
             </div>
             <div data-role="footer" data-position="fixed" data-tap-toggle="false" class="jqm-footer">
                 <div data-role="navbar" data-iconpos="bottom" >
@@ -102,30 +101,23 @@
                     </ul>
                 </div>
             </div>
+            <div data-role="content" class="" >
+                <!--iframe src = "https://www.twitter.com/kenworthdeleste"/-->
+                <!--a class="twitter-timeline" href="https://twitter.com/KenworthdelEste"></a-->
+                 <iframe
+                      scrolling='yes'
+                      src='https://cdn.rawgit.com/Luis-Chavez/Embed-Tweet/adad4db8/.html?user=kenworthdeleste'>
+                  </iframe>
+            </div>
         </div>
 
         <div data-role="page" id="webpage" data-theme="b">
-            <!--div data-role="header" data-position="fixed" >
+            <div data-role="header" data-position="fixed" >
                 <center>Kenworth del Este S.A de C.V</center>
                 <a href="#popup3" data-rel="popup" class="ui-btn ui-corner-all ui-btn-icon-notext ui-icon-gear ui-btn-right" data-transition="pop"></a>
                 <div data-role="popup" id="popup3">
                     <p>Para más información comunicarse a ti@kenworthdeleste.com.mx.</p>
                 </div>
-            </div-->
-            <div data-role="content" class="tmcontainer" >
-                <!--iframe src = "http://www.kenworthdeleste.com.mx" /-->
-                <!--embed src="http://www.kenworthdeleste.com.mx" /-->
-                <!--object type="text/html"
-                    data="http://www.kenworthdeleste.com.mx" >
-                </object-->
-                <center>Kenworth del Este S.A de C.V</center>
-                <a href="#popup" data-rel="popup" class="ui-btn ui-corner-all ui-btn-icon-notext ui-icon-gear ui-btn-right" data-transition="pop"></a>
-                <div data-role="popup" id="popup">
-                    <p>Para más información comunicarse a ti@kenworthdeleste.com.mx.</p>
-                </div>
-                <iframe
-                      src='http://www.kenworthdeleste.com.mx'>
-                </iframe>
             </div>
             <div data-role="footer" data-position="fixed" data-tap-toggle="false" class="jqm-footer">
                 <div data-role="navbar" data-iconpos="bottom" >
@@ -138,30 +130,26 @@
                     </ul>
                 </div>
             </div>
+            <div data-role="content" class="container" >
+                <!--iframe src = "http://www.kenworthdeleste.com.mx" /-->
+                <!--embed src="http://www.kenworthdeleste.com.mx" /-->
+                <!--object type="text/html"
+                    data="http://www.kenworthdeleste.com.mx" >
+                </object-->
+                <iframe
+                      scrolling='yes'
+                      src='http://www.kenworthdeleste.com.mx'>
+                </iframe>
+            </div>
         </div>
         
         <div data-role="page" id="unidades" data-theme="b">
-           <!--div data-role="header" data-position="fixed" >
+           <div data-role="header" data-position="fixed" >
                 <center>Kenworth del Este S.A de C.V</center>
                 <a href="#popup4" data-rel="popup" class="ui-btn ui-corner-all ui-btn-icon-notext ui-icon-gear ui-btn-right" data-transition="pop"></a>
                 <div data-role="popup" id="popup4">
                     <p>Para más información comunicarse a ti@kenworthdeleste.com.mx.</p>
                 </div>
-            </div-->
-            <div data-role="content" class="tmcontainer" >
-                <center>Kenworth del Este S.A de C.V</center>
-                <a href="#popup" data-rel="popup" class="ui-btn ui-corner-all ui-btn-icon-notext ui-icon-gear ui-btn-right" data-transition="pop"></a>
-                <div data-role="popup" id="popup">
-                    <p>Para más información comunicarse a ti@kenworthdeleste.com.mx.</p>
-                </div>
-                <!--iframe src = "http://www.kenworthdeleste.com.mx/KwEste/index.html#section-feature" /-->
-                <!--embed src="http://www.kenworthdeleste.com.mx/KwEste/index.html#section-feature" /-->
-                <!--object type="text/html"
-                        data="http://www.kenworthdeleste.com.mx/Seminuevas/work.html" >
-                </object-->
-                <iframe
-                      src='http://www.kenworthdeleste.com.mx/Seminuevas/work.html'>
-                </iframe>
             </div>
             <div data-role="footer" data-position="fixed" data-tap-toggle="false" class="jqm-footer">
                 <div data-role="navbar" data-iconpos="bottom" >
@@ -174,33 +162,35 @@
                     </ul>
                 </div>
             </div>
+            <div data-role="content" class="container" >
+                <!--iframe src = "http://www.kenworthdeleste.com.mx/KwEste/index.html#section-feature" /-->
+                <!--embed src="http://www.kenworthdeleste.com.mx/KwEste/index.html#section-feature" /-->
+                <!--object type="text/html"
+                        data="http://www.kenworthdeleste.com.mx/Seminuevas/work.html" >
+                </object-->
+                <iframe
+                      scrolling='yes'
+                      src='http://www.kenworthdeleste.com.mx/Seminuevas/work.html'>
+                </iframe>
+            </div>
         </div>
 
         <div data-role="page" id="contact" data-theme="b">
-            <!--div data-role="header" data-position="fixed" >
+            <div data-role="header" data-position="fixed" >
                 <center>Kenworth del Este S.A de C.V</center>
                 <a href="#popup5" data-rel="popup" class="ui-btn ui-corner-all ui-btn-icon-notext ui-icon-gear ui-btn-right" data-transition="pop"></a>
                 <div data-role="popup" id="popup5">
                     <p>Para más información comunicarse a ti@kenworthdeleste.com.mx.</p>
                 </div>
-            </div-->
-            <div data-role="content" class="tmcontainer" >
-                <!--iframe src = "http://www.kenworthdeleste.com.mx/KwEste/index.html#section-feature" /-->
-                <!--embed src="http://www.kenworthdeleste.com.mx/KwEste/Contacto/index.html" /-->
-                <center>Kenworth del Este S.A de C.V</center>
-                <a href="#popup" data-rel="popup" class="ui-btn ui-corner-all ui-btn-icon-notext ui-icon-gear ui-btn-right" data-transition="pop"></a>
-                <div data-role="popup" id="popup">
-                    <p>Para más información comunicarse a ti@kenworthdeleste.com.mx.</p>
-                </div>
-                <iframe src="https://www.google.com/maps/d/embed?mid=1F5L88bGiQ70v312WO4ZPGf59wWs&z=8&ll=20.076570104545173,-98.2177734375"></iframe>
-                <!--object type="text/html"
-                        data="http://maps.google.com/?q=http://www.kenworthdeleste.com.mx/Inicioapp/SucursalesKenworthdelEsteSAdeCV.kml" >
-                </object-->
-                <!--iframe src="https://www.google.com/maps/d/embed?mid=1txxrQnC369bikHawX7Lzb3LzMkE&z=8&ll=20.076570104545173,-98.2177734375"></iframe-->
             </div>
             <div data-role="footer" data-position="fixed" data-tap-toggle="false" class="jqm-footer">
                <div data-role="navbar" data-iconpos="bottom" >
                     <ul>
+                        <!--li><a href="#home" data-icon="home">inicio</a></li>
+                        <li><a href="#webpage" data-icon="action">sitio web</a></li>
+                        <li><a href="#twitter" data-icon="info" >twitter</a></li>
+                        <li><a href="#unidades" data-icon="eye" >unidades</a></li>
+                        <li><a href="#contact" data-icon="location" class="ui-btn-active ui-state-persist">contacto</a></li-->
                         <li><a href="#home"><span class="fa fa-home fa-3x" aria-hidden="true"></span></a></li>
                         <li><a href="#webpage"><span class="fa fa-globe fa-3x" aria-hidden="true"></span></a></li>
                         <li><a href="#twitter"><span class="fa fa-twitter fa-3x" aria-hidden="true"></span></a></li>
@@ -208,6 +198,9 @@
                         <li><a href="#contact" class="ui-btn-active ui-state-persist"><span class="fa fa-map-marker fa-3x" aria-hidden="true"></span></a></li>
                     </ul>
                 </div>
+            </div>
+            <div data-role="content" class="container" >
+                <iframe src="https://www.google.com/maps/d/embed?mid=1F5L88bGiQ70v312WO4ZPGf59wWs&z=8&ll=20.076570104545173,-98.2177734375"></iframe>
             </div>
         </div>
     </body>
