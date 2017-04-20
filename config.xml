@@ -8,6 +8,7 @@
         Kenworth del Este S.A. de C.V.
     </author>
     <content src="index.html" />
-	<icon src="www/img/icon.png"/>
+    <icon src="www/img/icon.png"/>
+    <allow-navigation href="*" />
     <access origin="*" />
 </widget>
