@@ -9,6 +9,7 @@
     </author>
     <content src="index.html" />
     <icon src="www/img/icon.png"/>
+    <splash src="www/img/icon.png" />
     <allow-navigation href="http://*/*" />
 	<allow-navigation href="https://*/*" />
     <access origin="*" />
